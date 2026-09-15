@@ -9,7 +9,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: 2202f333-f8d6-4e13-a6c7-0b437e42f5e3
+  uuid: 5059a06c-ed43-48d8-a276-b202c55019e8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -40,7 +40,7 @@ proxies:
   grpc-opts:
     grpc-service-name: freegrpc
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 85.204.107.178
+  server: 85.204.107.181
   port: 8080
   udp: true
   type: hysteria2
