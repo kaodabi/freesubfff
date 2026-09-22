@@ -4,25 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "172.67.191.121",
-      "server_port": 443,
-      "password": "Telegram_healer_config",
+      "server": "185.255.179.11",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "tls": {
         "enabled": true,
-        "server_name": "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev",
+        "server_name": "hub-de-03.hanvpn.cc",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
-        "type": "ws",
-        "path": "/tr/V2VWNDZAAEIdXVjOCkLfJnefnR5Pum?ed=2560",
-        "headers": {
-          "Host": "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "de03-grpc-8e47a"
       }
     },
     {
