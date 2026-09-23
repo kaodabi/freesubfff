@@ -5,14 +5,14 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe",
-      "server": "188.42.145.180",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "172.67.132.19",
       "server_port": 443,
-      "password": "humanity",
+      "password": "Telegram_healer_config",
       "tls": {
         "enabled": true,
-        "server_name": "www.volumeroot.com",
-        "insecure": false,
+        "server_name": "vre6r9qrbqi0t25tg.srtb0m3hdbwr2cjz8fjur.workers.dev",
+        "insecure": true,
         "alpn": [
           "http/1.1"
         ],
@@ -23,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560",
         "headers": {
-          "Host": "www.volumeroot.com"
+          "Host": "vre6r9qrbqi0t25tg.srtb0m3hdbwr2cjz8fjur.workers.dev"
         }
       }
     },
@@ -34,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
