@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 13.48.104.64
+  server: 13.51.242.39
   port: 443
   udp: true
   type: ss
@@ -19,14 +19,14 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 13.51.242.39
+  server: 51.20.86.152
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  server: 51.20.86.152
+  server: 13.48.104.64
   port: 443
   udp: true
   type: ss
