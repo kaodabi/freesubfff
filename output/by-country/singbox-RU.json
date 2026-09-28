@@ -4,37 +4,59 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "91.196.32.163",
-      "server_port": 443,
-      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany3.h2corp.local",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "fbsv6.guardora.pro",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "server": "104.21.79.199",
       "server_port": 443,
-      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
+      "uuid": "38d6b629-64c2-4c31-a10d-26eb3a2a053d",
       "tls": {
         "enabled": true,
-        "server_name": "fbsv6.guardora.pro",
+        "server_name": "lHNs3ww2-CXQ-Gj1vvOBkEPIg4noPkc.hqu4v38Hi9iFtcp6mZfMX-3bmx.WoRKeRS.dEV",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/vl/cxl8Wn1ylnsk63nJ0",
         "headers": {
-          "Host": "fbsv6.guardora.pro"
+          "Host": "lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "server": "176.32.35.2",
+      "server_port": 10090,
+      "method": "aes-256-gcm",
+      "password": "895b4b796a357570"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "server": "172.67.130.144",
+      "server_port": 443,
+      "uuid": "7da33b25-cdd6-e481-afcf-c5d532361a70",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-1bc8ab.sekiro-c18.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "ez-1bc8ab.sekiro-c18.workers.dev"
         }
       }
     },
@@ -44,7 +66,8 @@
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ]
     },
     {
@@ -52,7 +75,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
