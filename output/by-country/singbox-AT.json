@@ -37,7 +37,7 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "au2.pad-sservice.lat",
+      "server": "89.58.20.210",
       "server_port": 8443,
       "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
       "tls": {

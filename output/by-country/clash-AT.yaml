@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: au5.pad-sservice.lat
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: au2.pad-sservice.lat
+  server: 89.58.20.210
   port: 8443
   udp: true
   type: vless
