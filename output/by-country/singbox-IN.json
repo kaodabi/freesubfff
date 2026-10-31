@@ -38,9 +38,17 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "178.212.35.198",
+      "server": "139.84.166.47",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "GEdoeeqLZtkJRgSa"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "server": "in.smrtai.top",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
@@ -48,7 +56,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -59,23 +67,15 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
       "server": "in002.zestapp778.com",
       "server_port": 42733,
       "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
         "server_name": "in002.zestapp778.com",
-        "insecure": true
+        "insecure": false
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "server": "139.84.166.47",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "GEdoeeqLZtkJRgSa"
     },
     {
       "type": "selector",
