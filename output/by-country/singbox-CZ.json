@@ -5,24 +5,18 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇭🇺 匈牙利 (Hungary) 01 - xiaohe",
-      "server": "172.67.131.125",
-      "server_port": 2083,
-      "uuid": "f418674e-f518-4318-8ff9-e10000000046",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "178.208.89.21",
+      "server_port": 443,
+      "uuid": "689a62e4-37e7-41de-9e6a-f2a56368c9e2",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "smart-edge-424.arti98399-1905.workers.dev",
+        "server_name": "prod-eu-east-cz6.api-gateway.service-mesh.ingress-observability.speedtestinternet.link",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "smart-edge-424.arti98399-1905.workers.dev"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -31,14 +25,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
