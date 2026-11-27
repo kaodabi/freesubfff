@@ -30,7 +30,7 @@ proxies:
   servername: 71b840t.de7.h1clayd.click
   client-fingerprint: chrome
 - name: 🇮🇱 以色列 (Israel) 03 - xiaohe
-  server: 195.206.235.202
+  server: 132.243.163.125
   port: 443
   udp: true
   type: vless
